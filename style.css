@@ -1,0 +1,45 @@
+/* estilos padrão */
+body{
+    background-color: rgba(145, 172, 159, 0.822);
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    padding-top: 10px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+div#tudo{
+    background-color: white;
+    border-radius: 15px;
+    margin: auto;
+    width: 80%;
+    max-width: 400px;
+    height: 250px;
+}
+input#botao{
+    height: 30px;
+    width: 65px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+}
+input#numero{
+    margin-top: 10px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+div#res{
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* estilos para telas menores que 768px (por exemplo, celulares) */
+@media (max-width: 767px) {
+    div#tudo {
+        height: auto;
+    }
+}
